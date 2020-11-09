@@ -1,0 +1,141 @@
+
+ *** Current working directory
+/home/msamragh/pa3-pa3-zalawwad
+
+ *** Compiler
+mpicc for MVAPICH2 version 2.1
+icc version 14.0.2 (gcc version 4.8.0 compatibility)
+
+ *** Environment
+SLURM_CHECKPOINT_IMAGE_DIR=/home/msamragh/pa3-pa3-zalawwad
+SLURM_NODELIST=comet-14-[54-63]
+LC_PAPER=en_US.UTF-8
+MKLROOT=/opt/intel/composer_xe_2013_sp1.2.144/mkl
+SLURM_JOB_NAME=pa3-serial
+PDSHROOT=/opt/pdsh
+MANPATH=/opt/intel/composer_xe_2013_sp1.2.144/man/en_US:/opt/intel/composer_xe_2013_sp1.2.144/man/en_US:/opt/intel/composer_xe_2013_sp1.2.144/debugger/gdb/intel64/share/man/:/opt/intel/composer_xe_2013_sp1.2.144/debugger/gdb/intel64_mic/share/man/:/usr/share/man
+LC_ADDRESS=en_US.UTF-8
+SLURMD_NODENAME=comet-14-54
+SLURM_TOPOLOGY_ADDR=R24.R14.comet-14-54
+SLURM_NTASKS_PER_NODE=24
+LC_MONETARY=en_US.UTF-8
+HOSTNAME=comet-14-54
+SLURM_PRIO_PROCESS=0
+SLURM_NODE_ALIASES=(null)
+INTEL_LICENSE_FILE=/opt/intel/composer_xe_2013_sp1.2.144/licenses:/opt/intel/licenses:/root/intel/licenses
+IPPROOT=/opt/intel/composer_xe_2013_sp1.2.144/ipp
+SHELL=/bin/bash
+TERM=xterm-256color
+HISTSIZE=1000
+TMPDIR=/tmp
+SLURM_TOPOLOGY_ADDR_PATTERN=switch.switch.node
+SSH_CLIENT=128.54.21.148 34320 22
+GDBSERVER_MIC=/opt/intel/composer_xe_2013_sp1.2.144/debugger/gdb/target/mic/bin/gdbserver
+LIBRARY_PATH=/opt/intel/composer_xe_2013_sp1.2.144/compiler/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/ipp/../compiler/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/ipp/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/compiler/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/mkl/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/tbb/lib/intel64/gcc4.4
+LC_NUMERIC=en_US.UTF-8
+FPATH=/opt/intel/composer_xe_2013_sp1.2.144/mkl/include
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+SSH_TTY=/dev/pts/87
+ROCKSROOT=/opt/rocks/share/devel
+MIC_LD_LIBRARY_PATH=/opt/intel/composer_xe_2013_sp1.2.144/compiler/lib/mic:/opt/intel/composer_xe_2013_sp1.2.144/mpirt/lib/mic:/opt/intel/composer_xe_2013_sp1.2.144/compiler/lib/mic:/opt/intel/composer_xe_2013_sp1.2.144/mkl/lib/mic:/opt/intel/composer_xe_2013_sp1.2.144/tbb/lib/mic
+ANT_HOME=/opt/rocks
+SLURM_NNODES=10
+USER=msamragh
+LC_TELEPHONE=en_US.UTF-8
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lz=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.bz=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.rar=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LD_LIBRARY_PATH=/opt/gnu/gcc/lib64:/opt/gnu/gmp/lib:/opt/gnu/mpfr/lib:/opt/gnu/mpc/lib:/opt/gnu/lib:/opt/gnu/lib64:/opt/mvapich2/intel/ib/lib:/opt/intel/composer_xe_2013_sp1.2.144/compiler/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/mpirt/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/ipp/../compiler/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/ipp/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/compiler/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/mkl/lib/intel64:/opt/intel/composer_xe_2013_sp1.2.144/tbb/lib/intel64/gcc4.4:/opt/sdsc/lib
+ROCKS_ROOT=/opt/rocks
+MIC_LIBRARY_PATH=/opt/intel/composer_xe_2013_sp1.2.144/compiler/lib/mic:/opt/intel/composer_xe_2013_sp1.2.144/mpirt/lib/mic:/opt/intel/composer_xe_2013_sp1.2.144/tbb/lib/mic
+SLURM_JOBID=14770226
+CPATH=/opt/intel/composer_xe_2013_sp1.2.144/ipp/include:/opt/intel/composer_xe_2013_sp1.2.144/mkl/include:/opt/intel/composer_xe_2013_sp1.2.144/tbb/include
+SLURM_NTASKS=240
+NLSPATH=/opt/intel/composer_xe_2013_sp1.2.144/compiler/lib/intel64/locale/%l_%t/%N:/opt/intel/composer_xe_2013_sp1.2.144/ipp/lib/intel64/locale/%l_%t/%N:/opt/intel/composer_xe_2013_sp1.2.144/mkl/lib/intel64/locale/%l_%t/%N:/opt/intel/composer_xe_2013_sp1.2.144/debugger/gdb/intel64_mic/share/locale/%l_%t/%N:/opt/intel/composer_xe_2013_sp1.2.144/debugger/gdb/intel64/share/locale/%l_%t/%N
+GNUTOOLSHOME=/opt/gnu
+SLURM_TASKS_PER_NODE=24(x10)
+PATH=/opt/gnu/gcc/bin:/opt/gnu/bin:/opt/mvapich2/intel/ib/bin:/opt/intel/composer_xe_2013_sp1.2.144/bin/intel64:/opt/intel/composer_xe_2013_sp1.2.144/mpirt/bin/intel64:/opt/intel/composer_xe_2013_sp1.2.144/debugger/gdb/intel64_mic/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/ibutils/bin:/usr/java/latest/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/opt/sdsc/bin:/opt/sdsc/sbin:/home/msamragh/bin
+MAIL=/var/spool/mail/msamragh
+MV2_ALLTOALL_TUNING=2
+SLURM_JOB_ID=14770226
+SDSCDEVEL=/opt/sdsc/devel
+LC_IDENTIFICATION=en_US.UTF-8
+TBBROOT=/opt/intel/composer_xe_2013_sp1.2.144/tbb
+SLURM_JOB_USER=msamragh
+PWD=/home/msamragh/pa3-pa3-zalawwad
+CUDA_VISIBLE_DEVICES=NoDevFiles
+JAVA_HOME=/usr/java/latest
+_LMFILES_=/opt/modulefiles/compilers/intel/2013_sp1.2.144:/opt/modulefiles/mpi/.intel/mvapich2_ib/2.1:/opt/modulefiles/applications/gnutools/2.69
+LANG=en_US.UTF-8
+GDB_CROSS=/opt/intel/composer_xe_2013_sp1.2.144/debugger/gdb/intel64_mic/bin/gdb-mic
+MODULEPATH=/opt/modulefiles/mpi/.intel:/opt/modulefiles/applications/.intel:/opt/modulefiles/mpi:/opt/modulefiles/compilers:/opt/modulefiles/applications:/usr/share/Modules/modulefiles:/etc/modulefiles
+SLURM_JOB_UID=519600
+LC_MEASUREMENT=en_US.UTF-8
+LOADEDMODULES=intel/2013_sp1.2.144:mvapich2_ib/2.1:gnutools/2.69
+SLURM_NODEID=0
+SLURM_SUBMIT_DIR=/home/msamragh/pa3-pa3-zalawwad
+SLURM_TASK_PID=7580
+SLURM_NPROCS=240
+SLURM_CPUS_ON_NODE=24
+LM_LICENSE_FILE=/opt/flexlm/license/license.dat
+SLURM_PROCID=0
+ENVIRONMENT=BATCH
+KRB5CCNAME=FILE:/tmp/krb5cc_519600_pyixKi
+HISTCONTROL=ignoredups
+MPM_LAUNCHER=/opt/intel/composer_xe_2013_sp1.2.144/debugger/mpm/bin/start_mpm.sh
+SLURM_JOB_NODELIST=comet-14-[54-63]
+INTEL_PYTHONHOME=/opt/intel/composer_xe_2013_sp1.2.144/debugger/python/intel64/
+HOME=/home/msamragh
+SHLVL=2
+SLURM_LOCALID=0
+SLURM_JOB_CPUS_PER_NODE=24(x10)
+SLURM_CLUSTER_NAME=comet
+ROLLSROOT=/opt/rocks/share/devel/src/roll
+SLURM_GTIDS=0
+SLURM_SUBMIT_HOST=comet-ln2.sdsc.edu
+MPIHOME=/opt/mvapich2/intel/ib
+SLURM_JOB_PARTITION=compute
+SDSCHOME=/opt/sdsc
+LOGNAME=msamragh
+PYTHONPATH=/opt/sdsc/lib:/opt/sdsc/lib/python2.6/site-packages
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+GPU_DEVICE_ORDINAL=NoDevFiles
+SSH_CONNECTION=128.54.21.148 34320 198.202.113.253 22
+SLURM_JOB_NUM_NODES=10
+MODULESHOME=/usr/share/Modules
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+MKL_ROOT=/opt/intel/composer_xe_2013_sp1.2.144/mkl
+INFOPATH=/opt/intel/composer_xe_2013_sp1.2.144/debugger/gdb/intel64/share/info/:/opt/intel/composer_xe_2013_sp1.2.144/debugger/gdb/intel64_mic/share/info/
+INCLUDE=/opt/intel/composer_xe_2013_sp1.2.144/mkl/include
+LC_TIME=en_US.UTF-8
+INTELHOME=/opt/intel/composer_xe_2013_sp1.2.144
+PUB=/oasis/projects/nsf/csd562/bwchin/cse260-wi18
+SLURM_MEM_PER_NODE=122880
+G_BROKEN_FILENAMES=1
+LC_NAME=en_US.UTF-8
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=/usr/bin/printenv
+
+>>> Job Starts
+Mon Mar 12 10:33:13 PDT 2018
+
+[Simulation begins] Mon Mar 12 10:33:13 2018
+
+dt= 0.0639292, # iters = 400
+m x n = 150 x 150
+processor geometry: 1 x 1
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Mon Mar 12 10:33:13 2018
+
+End at iteration 399
+Max norm: 9.91872e-01, L2norm: 6.05098e-01
+Running Time: 0.052387 sec. [4.81 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 150 150    1 1      Y     400  0.05239 4.81    9.91872e-01 6.05098e-01
+  -----
+Mon Mar 12 10:33:13 PDT 2018
+>>> Job Ends

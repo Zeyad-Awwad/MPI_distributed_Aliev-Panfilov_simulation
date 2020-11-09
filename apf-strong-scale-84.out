@@ -1,0 +1,222 @@
+
+[Simulation begins] Mon Mar 12 11:08:30 2018
+
+dt= 0.00144443, # iters = 2000
+m x n = 1800 x 1800
+processor geometry: 2 x 42
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Mon Mar 12 11:08:31 2018
+
+End at iteration 1999
+Max norm: 9.96750e-01, L2norm: 6.48606e-01
+Running Time: 0.736584 sec. [246 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    2 42      Y     2000  0.7366 246.3    9.96750e-01 6.48606e-01
+  -----
+
+[Simulation begins] Mon Mar 12 11:08:36 2018
+
+dt= 0.00144443, # iters = 2000
+m x n = 1800 x 1800
+processor geometry: 4 x 21
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Mon Mar 12 11:08:36 2018
+
+End at iteration 1999
+Max norm: 9.96750e-01, L2norm: 6.48606e-01
+Running Time: 0.738539 sec. [246 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    4 21      Y     2000  0.7385 245.7    9.96750e-01 6.48606e-01
+  -----
+
+[Simulation begins] Mon Mar 12 11:08:41 2018
+
+dt= 0.00144443, # iters = 2000
+m x n = 1800 x 1800
+processor geometry: 6 x 14
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Mon Mar 12 11:08:42 2018
+
+End at iteration 1999
+Max norm: 9.96750e-01, L2norm: 6.48606e-01
+Running Time: 0.730126 sec. [249 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    6 14      Y     2000  0.7301 248.5    9.96750e-01 6.48606e-01
+  -----
+
+[Simulation begins] Mon Mar 12 11:08:47 2018
+
+dt= 0.00144443, # iters = 2000
+m x n = 1800 x 1800
+processor geometry: 14 x 6
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Mon Mar 12 11:08:47 2018
+
+End at iteration 1999
+Max norm: 9.96750e-01, L2norm: 6.48606e-01
+Running Time: 0.699909 sec. [259 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    14 6      Y     2000  0.6999 259.2    9.96750e-01 6.48606e-01
+  -----
+
+[Simulation begins] Mon Mar 12 11:08:52 2018
+
+dt= 0.00144443, # iters = 2000
+m x n = 1800 x 1800
+processor geometry: 21 x 4
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Mon Mar 12 11:08:53 2018
+
+End at iteration 1999
+Max norm: 9.96750e-01, L2norm: 6.48606e-01
+Running Time: 0.704653 sec. [257 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    21 4      Y     2000  0.7047 257.5    9.96750e-01 6.48606e-01
+  -----
+
+[Simulation begins] Mon Mar 12 11:08:58 2018
+
+dt= 0.00144443, # iters = 2000
+m x n = 1800 x 1800
+processor geometry: 42 x 2
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Mon Mar 12 11:08:58 2018
+
+End at iteration 1999
+Max norm: 9.96750e-01, L2norm: 6.48752e-01
+Running Time: 0.714701 sec. [254 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    42 2      Y     2000  0.7147 253.9    9.96750e-01 6.48752e-01
+  -----
+
+[Simulation begins] Mon Mar 12 11:09:03 2018
+
+dt= 0.00144443, # iters = 2000
+m x n = 1800 x 1800
+processor geometry: 2 x 42
+
+Compiled with MPI ENABLED
+Communication shut off
+
+[Simulation completes] Mon Mar 12 11:09:04 2018
+
+End at iteration 1999
+Max norm: 9.95785e-01, L2norm: 3.59237e-01
+Running Time: 0.73135 sec. [248 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    2 42      N     2000  0.7313 248.1    9.95785e-01 3.59237e-01
+  -----
+
+[Simulation begins] Mon Mar 12 11:09:09 2018
+
+dt= 0.00144443, # iters = 2000
+m x n = 1800 x 1800
+processor geometry: 4 x 21
+
+Compiled with MPI ENABLED
+Communication shut off
+
+[Simulation completes] Mon Mar 12 11:09:09 2018
+
+End at iteration 1999
+Max norm: 9.96750e-01, L2norm: 5.21469e-01
+Running Time: 0.712523 sec. [255 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    4 21      N     2000  0.7125 254.6    9.96750e-01 5.21469e-01
+  -----
+
+[Simulation begins] Mon Mar 12 11:09:14 2018
+
+dt= 0.00144443, # iters = 2000
+m x n = 1800 x 1800
+processor geometry: 6 x 14
+
+Compiled with MPI ENABLED
+Communication shut off
+
+[Simulation completes] Mon Mar 12 11:09:15 2018
+
+End at iteration 1999
+Max norm: 9.96750e-01, L2norm: 5.42768e-01
+Running Time: 0.713971 sec. [254 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    6 14      N     2000  0.714 254.1    9.96750e-01 5.42768e-01
+  -----
+
+[Simulation begins] Mon Mar 12 11:09:20 2018
+
+dt= 0.00144443, # iters = 2000
+m x n = 1800 x 1800
+processor geometry: 14 x 6
+
+Compiled with MPI ENABLED
+Communication shut off
+
+[Simulation completes] Mon Mar 12 11:09:20 2018
+
+End at iteration 1999
+Max norm: 9.96750e-01, L2norm: 5.44485e-01
+Running Time: 0.701951 sec. [258 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    14 6      N     2000  0.702 258.5    9.96750e-01 5.44485e-01
+  -----
+
+[Simulation begins] Mon Mar 12 11:09:25 2018
+
+dt= 0.00144443, # iters = 2000
+m x n = 1800 x 1800
+processor geometry: 21 x 4
+
+Compiled with MPI ENABLED
+Communication shut off
+
+[Simulation completes] Mon Mar 12 11:09:26 2018
+
+End at iteration 1999
+Max norm: 9.96750e-01, L2norm: 5.13762e-01
+Running Time: 0.688055 sec. [264 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    21 4      N     2000  0.6881 263.7    9.96750e-01 5.13762e-01
+  -----
+
+[Simulation begins] Mon Mar 12 11:09:31 2018
+
+dt= 0.00144443, # iters = 2000
+m x n = 1800 x 1800
+processor geometry: 42 x 2
+
+Compiled with MPI ENABLED
+Communication shut off
+
+[Simulation completes] Mon Mar 12 11:09:31 2018
+
+End at iteration 1999
+Max norm: 9.95967e-01, L2norm: 3.61929e-01
+Running Time: 0.682529 sec. [266 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    42 2      N     2000  0.6825 265.8    9.95967e-01 3.61929e-01
+  -----
